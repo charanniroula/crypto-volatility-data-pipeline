@@ -20,3 +20,8 @@ The script hits a live crypto API (CoinGecko), cleans up the incoming format, ad
 ### 2. Math & Analytics (AWS Athena / Presto SQL)
 Because raw price points don't show volatility on their own, I used advanced SQL window functions to look exactly one hour backwards in time, separate the assets, and calculate the precise rate of change:
 * *Code Location:* `sql/athena_transform.sql`
+
+### 3. Data Visualization (Tableau)
+I wanted the final dashboard to be clean and instantly readable, avoid the messy charts, so I built a coordinated layout that separates Bitcoin and Ethereum into their own individual rows while keeping their time axes perfectly locked together. This allows anyone looking at the dashboard to scroll across the 30-day timeline and instantly see how a price jump or drop in one asset affected the other at that exact hour.
+* Here is the data visualization: https://public.tableau.com/app/profile/charan.niroula/viz/HourlyCryptoVolatilityChange/Dashboard1
+
