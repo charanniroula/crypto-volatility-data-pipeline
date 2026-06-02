@@ -19,4 +19,4 @@ The script hits a live crypto API (CoinGecko), cleans up the incoming format, ad
 
 ### 2. Math & Analytics (AWS Athena / Presto SQL)
 Because raw price points don't show volatility on their own, I used advanced SQL window functions to look exactly one hour backwards in time, separate the assets, and calculate the precise rate of change:
-* *Code Location:* `athena_transform.sql`
+* *Code Location:* `sql/athena_transform.sql`
