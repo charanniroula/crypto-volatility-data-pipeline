@@ -23,5 +23,5 @@ Because raw price points don't show volatility on their own, I used advanced SQL
 
 ### 3. Data Visualization (Tableau)
 I wanted the final dashboard to be clean and instantly readable, avoid the messy charts, so I built a coordinated layout that separates Bitcoin and Ethereum into their own individual rows while keeping their time axes perfectly locked together. This allows anyone looking at the dashboard to scroll across the 30-day timeline and instantly see how a price jump or drop in one asset affected the other at that exact hour.
-* Here is the data visualization: https://public.tableau.com/app/profile/charan.niroula/viz/HourlyCryptoVolatilityChange/Dashboard1
+* Here is the data visualization: [Click Here to View the Interactive Tableau Dashboard](https://public.tableau.com/app/profile/charan.niroula/viz/HourlyCryptoVolatilityChange/Dashboard1)
 
